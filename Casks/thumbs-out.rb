@@ -4,7 +4,7 @@ cask "thumbs-out" do
 
   url "https://github.com/mj0lken/thumbs-out/releases/download/v#{version}/thumbs-out-#{version}-arm64.zip"
   name "thumbs-out"
-  desc "Keeps your Mac awake while AI coding agents run commands"
+  desc "Keeps the computer awake while AI coding agents run commands"
   homepage "https://mj0lken.github.io/thumbs-out/"
 
   livecheck do
@@ -13,14 +13,14 @@ cask "thumbs-out" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "thumbs-out.app"
 
   uninstall quit: "com.mj0lken.thumbs-out"
 
-  zap trash:  "~/Library/Preferences/com.mj0lken.thumbs-out.plist",
-      delete: "/etc/sudoers.d/thumbs-out"
+  zap delete: "/etc/sudoers.d/thumbs-out",
+      trash:  "~/Library/Preferences/com.mj0lken.thumbs-out.plist"
 
   caveats <<~EOS
     thumbs-out isn't notarized by Apple yet. The first time you open it, macOS
