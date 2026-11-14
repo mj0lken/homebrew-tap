@@ -1,6 +1,6 @@
 cask "on-c" do
-  version "1.0.0"
-  sha256 "66d549e89629a61cc2b4811eba695d484e85f73e970ea1fa659e9619bdb1b191"
+  version "1.0.1"
+  sha256 "985e3295331d4c9fd0dde3e9a66eca3651126409c9ed6bb140144e47fe5efd12"
 
   url "https://github.com/mj0lken/on-c/releases/download/v#{version}/on-c-#{version}-arm64.zip"
   name "on/c"
