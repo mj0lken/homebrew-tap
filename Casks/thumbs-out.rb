@@ -1,6 +1,6 @@
 cask "thumbs-out" do
-  version "1.2.0"
-  sha256 "6a34482bcc342e357c6e658082ce7b18bf986905d228245b1046306c24e4a700"
+  version "1.3.0"
+  sha256 "13da3c9b25018e9864892a6cdf7784b515951fa6b02672939424b2f2ce185f91"
 
   url "https://github.com/mj0lken/thumbs-out/releases/download/v#{version}/thumbs-out-#{version}-arm64.zip"
   name "thumbs-out"
