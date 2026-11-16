@@ -1,6 +1,6 @@
 cask "tjuv" do
-  version "1.0.2"
-  sha256 "a3207cc2a306c3ee80c11003757e3d96c104164208a9c20f8f8b24b701fca24f"
+  version "1.1.0"
+  sha256 "22f2d91dff6b5264544fdc8f69a961ef58331b0b15634e63c3ccfea279e36583"
 
   url "https://github.com/mj0lken/tjuv/releases/download/v#{version}/tjuv-#{version}-arm64.zip"
   name "Tjuv"
