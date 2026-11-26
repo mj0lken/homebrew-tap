@@ -1,9 +1,9 @@
 cask "termcast" do
   arch arm: "", intel: "-Universal"
 
-  version "0.4.0"
-  sha256 arm:   "502b45e8e063817110c3463ffd03c7a733167f71190b4df971bab073273e31be",
-         intel: "8b471cc476411fee38c2f47a5c49c8e9548f4cd5b6856b84375205f16eb6d77b"
+  version "0.5.0"
+  sha256 arm:   "02927e914a4e51bece11fcb7359e946d979532500e7f183fd61ccc5c22592415",
+         intel: "6f12b92737e997b2a603aebd267f25ad06a808e6c4429b90906407cf5860d357"
 
   url "https://github.com/mj0lken/TermCast/releases/download/v#{version}/Termcast#{arch}-#{version}.dmg"
   name "Termcast"
